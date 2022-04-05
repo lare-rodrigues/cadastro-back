@@ -1,0 +1,23 @@
+Requisitos cadastro de pessoas
+
+O usuário deve possuir os campos
+
+nome
+sobrenome
+email
+telefone
+cpf
+cep
+endereço 
+numero
+cidade
+estado
+
+O nome e o sobrenome do usuário deve ter entre 3 e 30 caracteres;
+O email do usuário deve ter @ seguido de um endereço contendo '.' (Ponto);
+O cpf do usuário deve ser válido;
+O telefone do usuário deve possuir DDD e 9 dígitos (totalizando 11);
+O cep do usuário deve ser válido e consultado no https://viacep.com.br/ws/:cep/json;
+Os campos endereço, cidade e estado devem ser provido pelo serviço via cep;
+Os campos número e complemento devem ser informados pelo usuário;
+
